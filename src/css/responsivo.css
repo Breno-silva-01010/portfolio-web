@@ -1,0 +1,136 @@
+
+@media only screen and (max-width: 800px) {
+    
+    header{
+        margin:  1.3% 0;
+    }
+    h1{
+        font-size: 5vw;
+        -webkit-text-stroke: 0.7px rgb(255, 255, 255);
+        flex: 60%;
+        text-align: left;
+        padding: 0 0 0 1%;
+        
+    }
+    .menu{
+        flex: 40%;
+    }
+    .menu li{
+        margin: 0 5%;
+    }
+    .menu a{
+        font-size: 3vw;
+    }
+    
+    .subtitulo{
+        -webkit-text-stroke: 1.1px white ;
+        margin-top: 4vw;
+        font-size: 5.5vw;
+    }
+    .sobremim{
+        margin-top: 6vw;
+    }
+    .sobremim p{
+        padding: 0 5%;
+        font-size: 4vw;
+    }
+    .contatos li{
+        font-size: 5vw;
+        -webkit-text-stroke: 0.5px rgb(168, 245, 255) ;
+        margin: 2vw;
+    }
+    .conta {
+        margin:0 2% 1% 0;
+        height: 7.5vw;
+    }
+    
+    
+    .projeto{
+        margin-top: 3vw;
+        border-radius: 2.2vw;
+        border: 1.9px blue solid;
+        padding: 2vw 2.2vw;
+        font-size: 3.5vw;
+    }
+    h3{
+        font-size: 5vw;
+        padding-bottom: 2vw;
+    }
+    .imgs{
+        margin: 3vw 0;
+    }
+    .img{
+        height: 35vw;
+    }
+    .link{
+        font-size:3.5vw ;
+    }
+    .link:hover{
+        font-size: 3.5vw;
+        color: rgb(0, 0, 255);
+        text-shadow: 1px 1px  rgb(0, 0, 0),2px 2px 2px white, 3px 3px 4px white;
+        -webkit-text-stroke: 0.2px rgb(255, 255, 255);
+    }
+
+    
+    .curso{
+        border-radius: 10vw;
+        padding:0 2vw 6vw;
+    }
+    .conteudo{
+        display: inline-block;
+    }
+    .conteudo p{
+        font-size: 4vw;
+        padding-right: 0;
+        width: auto;
+    }
+    .certificado{
+        width: 50%;
+        float: right;
+        padding-left: 2%;
+    }
+    .certificado img{
+        border: 0.7px white solid;
+    }
+
+    
+    .copy{
+        font-size: 2vw ;
+        margin-top: 3%;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    h1{
+        font-size: 6.4vw;
+    }
+    .menu{
+        border-left: 1.5px solid white;
+        padding-left: 2%;
+        height: 4.5vw;
+        align-items: center;
+    }
+    .menu a{
+        font-size: 3.2vw;
+    }
+    .subtitulo{
+        -webkit-text-stroke: 0.8px white ;
+    }
+    .sobremim p{
+        font-size: 4.5vw;
+    }
+
+    .projeto{
+        font-size: 4vw;
+    }
+    .conteudo p{
+        font-size: 4.5vw;
+    }
+    
+    .copy{
+        font-size: 2.7vw ;
+    }
+}

@@ -1,0 +1,152 @@
+
+header{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin:  0.5% 0;
+    border-bottom: 2px solid rgb(181, 181, 181);
+}
+h1{
+    font-size: 3.8vw;
+    font-family: 'Cinzel Decorative', serif;
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+    color: blue;
+    flex: 50%;
+}
+.menu{
+    display:flex;
+    flex: 50%;
+    justify-content: flex-end;
+}
+.menu li{
+    display: flex;
+    margin: 0 6%;
+}
+.menu a:hover{
+    text-shadow: 1px 2px blue, 1px 2px 3px white;
+}
+.menu a{
+    width: 100%;
+    font-size: 1.8vw;
+    font-weight:bold;
+}
+
+.subtitulo{
+    -webkit-text-stroke: 0.2px white ;
+    color:rgb(125, 125, 125) ;
+    margin-top: 4.8vw;
+    text-align: center;
+    font-size: 3.2vw;
+    font-family:  'Lato', sans-serif;
+}
+
+.sobremim{
+    margin-top: 6vw;
+}
+.sobremim p{
+    padding: 0 3%;
+    font-size: 1.5vw;
+}
+/* .eu{
+    border-radius: 100%;
+    box-shadow: 3px 2px 4px blue;
+    width: 10%;
+    float: left;
+    margin: 0 2vw 1vw;
+
+} */
+
+.contatos li{
+    font-size: 2.8vw;
+    -webkit-text-stroke: 0.3px rgb(168, 245, 255) ;
+    margin: 1.6vw;
+    display: flex;
+    align-items: center;
+}
+.conta {
+    margin-right: 1.2%;
+    height: 3.3vw;
+}
+.conta img{
+    background-color: rgb(37, 92, 255);
+    padding: 2px;
+    height: 100%;
+    border-radius: 28%;
+}
+
+
+.projetos{
+    margin: 0 3%;
+}
+.projeto{
+    margin-top: 2.8vw;
+    border-radius: 2vw;
+    border: 2px blue solid;
+    padding: 1vw 2vw 1vw;
+    font-size: 1.6vw;
+}
+h3{
+    font-size: 2.4vw;
+    padding-bottom: 1.5vw;
+    text-shadow: 2px 2px black, 3px 3px 4px white;
+}
+.imgs{
+    display: flex;
+    justify-content: center;
+    margin: 2.3vw 0;
+}
+.img{
+    height: 29vw;
+    border: 1px white solid;
+    margin: 0 0.7%;
+}
+.links{
+    text-align: center;
+}
+.link{
+    font-size:2vw ;
+    margin: 0 1.9vw 1.4vw;
+    text-shadow: 2px 2px  blue, 3px 3px 3px white;
+}
+.link:hover{
+    font-size: 2.3vw;
+}
+
+.cursos{
+    margin: 0 2vw;
+}
+.curso{
+    margin-top: 3vw;
+    border: 2px solid gray;
+    border-radius: 3vw;
+    padding:0 1vw 3vw;
+}
+.curso h3{
+    text-align: center;
+    margin: 2vw 0;
+}
+.conteudo{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.conteudo p{
+    font-size: 2.1vw;
+    padding-right: 2%;
+    text-align: justify;
+    width: 55%;
+}
+.certificado{
+    width: 45%;
+}
+.certificado img{
+    height: auto;
+    width: 100%;
+    border: 1px white solid;
+}
+
+.copy{
+    font-size: 1.1vw ;
+    margin: 1% 0 1% 2%;
+}
+
+
